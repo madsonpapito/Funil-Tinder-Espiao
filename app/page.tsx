@@ -348,11 +348,11 @@ export default function SigiloX() {
 
   // Funções do carrossel
   const blockedImages = [
-    "/placeholder.svg?height=300&width=200&text=Foto+Bloqueada+1",
-    "/placeholder.svg?height=300&width=200&text=Foto+Bloqueada+2", 
-    "/placeholder.svg?height=300&width=200&text=Foto+Bloqueada+3",
-    "/placeholder.svg?height=300&width=200&text=Foto+Bloqueada+4"
-  ]
+  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2016%20de%20jun.%20de%202025%2C%2013_13_25-pmZr6jZA37litzPJj8wNrpnkp0rvw7.png",
+  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2016%20de%20jun.%20de%202025%2C%2013_00_31-dvWrjTNfk1GBf9V0QzQ1AkwSwyLJtc.png",
+  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2016%20de%20jun.%20de%202025%2C%2013_07_30-yxXklpz3bQ3P5v6vrD3e0vfNJM8qay.png",
+  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2016%20de%20jun.%20de%202025%2C%2013_09_25-0Fi38oBqj5XfdYiVY73fUzmlAvv7N5.png"
+]
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % blockedImages.length)
@@ -599,11 +599,11 @@ export default function SigiloX() {
                       {/* Ana's Testimonial */}
                       <div className="testimonial-card bg-white rounded-xl shadow-lg p-4 sm:p-5 flex items-start gap-4">
                         <img
-                          src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                          src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHx8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
                           alt="Foto de Ana"
                           className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover flex-shrink-0 border-2 border-gray-200 shadow-sm"
                           onError={(e) => {
-                            e.currentTarget.src = "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            e.currentTarget.src = "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHx8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
                           }}
                         />
                         <div className="flex-1 min-w-0 text-left">
@@ -628,11 +628,11 @@ export default function SigiloX() {
                     {/* Carlos's Testimonial */}
                     <div className="testimonial-card bg-white rounded-xl shadow-lg p-4 sm:p-5 flex items-start gap-4">
                       <img
-                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHx8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
                         alt="Foto de Carlos"
                         className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover flex-shrink-0 border-2 border-gray-200 shadow-sm"
                         onError={(e) => {
-                          e.currentTarget.src = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                          e.currentTarget.src = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHx8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
                         }}
                       />
                       <div className="flex-1 min-w-0 text-left">
@@ -657,11 +657,11 @@ export default function SigiloX() {
                       {/* Fernanda's Testimonial */}
                       <div className="testimonial-card bg-white rounded-xl shadow-lg p-4 sm:p-5 flex items-start gap-4">
                         <img
-                          src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+                          src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHx8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
                           alt="Foto de Fernanda"
                           className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover flex-shrink-0 border-2 border-gray-200 shadow-sm"
                           onError={(e) => {
-                            e.currentTarget.src = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+                            e.currentTarget.src = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHx8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
                           }}
                         />
                         <div className="flex-1 min-w-0 text-left">
@@ -701,7 +701,7 @@ export default function SigiloX() {
                     </p>
                   </div>
                 </div>
-            </motion.div>
+              </motion.div>
           )}
 
           {/* Form - Mobile Optimized */}
@@ -1231,11 +1231,10 @@ export default function SigiloX() {
                   </div>
 
                   <Lock className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-4 sm:mb-6 text-gray-400" />
-                  <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">FOTOS BLOQUEADAS</h3>
-                  <p className="text-gray-300 text-sm mb-3 sm:mb-4">PARA SUA SEGURANÇA</p>
+                  <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">FOTOS CENSURADAS</h3>
 
                   {/* Carrossel de Imagens Bloqueadas */}
-                  <div className="relative mb-6 sm:mb-8 max-w-xs mx-auto">
+                  <div className="relative mb-4 sm:mb-6 max-w-xs mx-auto">
                     <div className="overflow-hidden rounded-2xl bg-gray-800 border-2 border-gray-600">
                       <div 
                         className="flex transition-transform duration-300 ease-in-out"
@@ -1291,11 +1290,6 @@ export default function SigiloX() {
                       ))}
                     </div>
                   </div>
-
-                  <p className="text-xs text-gray-400 mb-6 sm:mb-8 px-2 leading-relaxed">
-                    ⚠️ Por questões de segurança, as fotos e conversas estão bloqueadas. Para liberar o acesso
-                    completo, finalize a validação de segurança abaixo.
-                  </p>
 
                   <Button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white font-bold py-2 sm:py-3 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 touch-manipulation">
                     👁️ VER FOTOS COMPLETAS AGORA
@@ -1431,35 +1425,114 @@ export default function SigiloX() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="min-h-screen bg-gradient-to-b from-[#FAFAFA] to-[#FFFFFF] py-4 sm:py-8"
+              className="min-h-screen bg-gradient-to-br from-[#FF3B30] to-[#FF0066] relative overflow-hidden"
             >
-              <div className="container mx-auto px-4 max-w-lg">
-                {/* Header */}
-                <div className="text-center mb-6 sm:mb-8">
-                  <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-r from-[#FF0066] to-[#FF3333] rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 shadow-2xl">
-                    <Lock className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
-                  </div>
-                  <div className="bg-blue-100 border border-blue-300 rounded-2xl p-3 sm:p-4 mb-4 sm:mb-6">
-                    <p className="text-blue-800 text-xs sm:text-sm font-bold">
-                      🛡️ ACESSO EXCLUSIVO: Apenas para usuários que concluíram a análise
+              {/* Floating hearts - Reduced for mobile */}
+              <div className="absolute inset-0">
+                {[...Array(10)].map((_, i) => (
+                  <motion.div
+                    key={i}
+                    className="absolute w-4 h-4 bg-white rounded-full opacity-20"
+                    style={{
+                      left: `${Math.random() * 100}%`,
+                      top: `${Math.random() * 100}%`,
+                    }}
+                    animate={{
+                      scale: [1, 1.5, 1],
+                      opacity: [0.2, 0.6, 0.2],
+                      y: [0, -20, 0],
+                    }}
+                    transition={{
+                      duration: 3 + Math.random() * 2,
+                      repeat: Number.POSITIVE_INFINITY,
+                      delay: Math.random() * 2,
+                    }}
+                  />
+                ))}
+              </div>
+
+              <div className="relative z-10 container mx-auto px-4 py-6 sm:py-8 flex items-center justify-center min-h-screen">
+                <div className="w-full max-w-lg">
+                  {/* Header */}
+                  <div className="text-center mb-6 sm:mb-8">
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 shadow-2xl">
+                      <Lock className="w-8 h-8 sm:w-10 sm:h-10 text-[#FF0066]" />
+                    </div>
+                    <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4">
+                      🔒 DESBLOQUEIE O RELATÓRIO COMPLETO
+                    </h1>
+                    <p className="text-gray-200 text-sm sm:text-base px-4 leading-relaxed">
+                      Veja as fotos, conversas e localização exata do perfil.
                     </p>
                   </div>
-                  <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#333333] mb-3 sm:mb-4">
-                    🔒 Seu Relatório Está Pronto – Libere o Acesso Agora
-                  </h1>
-                  <p className="text-gray-600 text-sm sm:text-base px-4 leading-relaxed">
-                    Por motivos de segurança, só usuários que concluíram a análise podem visualizar o conteúdo completo.
-                  </p>
-                </div>
 
-                {/* Offer Card */}
-                <div className="text-center">
-                  <Button className="bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-3 sm:py-4 px-6 sm:px-8 text-base sm:text-lg rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 w-full mb-3 touch-manipulation">
-                    🔓 LIBERAR RELATÓRIO E VER TUDO AGORA
-                  </Button>
-                  <p className="text-sm text-[#333333] font-medium">
-                    Garantia de anonimato • Conexão segura • Liberação imediata
-                  </p>
+                  {/* Offer Card */}
+                  <Card className="bg-white rounded-2xl shadow-lg border-0">
+                    <CardContent className="p-4 sm:p-8 space-y-6 sm:space-y-8">
+                      {/* Price */}
+                      <div className="text-center">
+                        <div className="text-4xl sm:text-5xl font-bold text-[#FF0066] mb-2 sm:mb-3">R$ 47,00</div>
+                        <p className="text-sm sm:text-base text-gray-500 font-medium">
+                          Acesso único e vitalício ao relatório completo.
+                        </p>
+                      </div>
+
+                      {/* Features */}
+                      <div className="space-y-3">
+                        <div className="flex items-center gap-3">
+                          <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-500 flex-shrink-0" />
+                          <span className="font-medium text-sm sm:text-base text-[#333333]">
+                            Veja todas as fotos do perfil (incluindo as privadas)
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-500 flex-shrink-0" />
+                          <span className="font-medium text-sm sm:text-base text-[#333333]">
+                            Acesse as conversas recentes (e o que ele(a) está dizendo)
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-500 flex-shrink-0" />
+                          <span className="font-medium text-sm sm:text-base text-[#333333]">
+                            Descubra a localização exata (e onde ele(a) está marcando encontros)
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Submit Button */}
+                      <Button
+                        className="w-full py-3 sm:py-4 text-base sm:text-lg font-bold rounded-xl bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 touch-manipulation"
+                      >
+                        💳 DESBLOQUEAR COM PAGAMENTO SEGURO
+                      </Button>
+
+                      <p className="text-xs sm:text-sm text-gray-500 text-center flex items-center justify-center gap-2 font-medium">
+                        <Shield className="w-4 h-4 sm:w-5 sm:h-5" />🔒 Pagamento seguro com criptografia SSL
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  {/* Timer with Enhanced Tension */}
+                  <Card
+                    className={`text-white mt-6 sm:mt-8 rounded-2xl border-0 shadow-xl ${
+                      timeLeft <= 120 ? "bg-[#FFA500] animate-pulse" : "bg-[#FF3B30]"
+                    }`}
+                  >
+                    <CardContent className="p-4 sm:p-6">
+                      <div className="flex items-center gap-2 sm:gap-3 mb-3">
+                        <AlertTriangle className="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0 animate-bounce" />
+                        <span className="font-bold text-base sm:text-lg">OFERTA EXPIRA EM:</span>
+                      </div>
+                      <div className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">{formatTime(timeLeft)}</div>
+                      <div className="space-y-1 sm:space-y-2 text-xs opacity-90">
+                        <p>
+                          Após o término do tempo, o relatório será excluído permanentemente por questões de
+                          privacidade.
+                        </p>
+                        <p className="font-bold text-yellow-200">Esta oferta não poderá ser recuperada depois.</p>
+                      </div>
+                    </CardContent>
+                  </Card>
                 </div>
               </div>
             </motion.div>
@@ -1467,5 +1540,5 @@ export default function SigiloX() {
         </AnimatePresence>
       </div>
     </div>
-  )
+  )\
 }
